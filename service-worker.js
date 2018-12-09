@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/uniswap-frontend/precache-manifest.47cc08dd193a87050ffa4fa482b67ea6.js"
+  "uniswap-frontend/precache-manifest.5e09baaa941bb7d8263c443186d22511.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/uniswap-frontend/index.html", {
+workbox.routing.registerNavigationRoute("uniswap-frontend/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
