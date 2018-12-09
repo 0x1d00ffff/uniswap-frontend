@@ -32,7 +32,8 @@ const FUSE_OPTIONS = {
   ]
 };
 
-const TOKEN_ADDRESS_TO_LABEL = { ETH: 'ETH' };
+const TOKEN_ADDRESS_TO_LABEL = { ETH: 'ETH', '0xB6eD7644C69416d67B522e20bC294A9a9B405B31': '0XBTC' };
+
 
 class CurrencyInputPanel extends Component {
   static propTypes = {
