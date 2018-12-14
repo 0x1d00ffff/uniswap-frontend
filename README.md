@@ -1,6 +1,8 @@
 # Uniswap Frontend
 This an an open source interface for Uniswap - a protocol for decentralized exchange of Ethereum tokens.
 
+This is a fork of the [standard Uniswap frontend](https://github.com/Uniswap/uniswap-frontend) which supports 0xBitcoin. It runs at [0xbitcoin.trade](https://0xbitcoin.trade/). 
+
 * Website: [uniswap.io/](https://uniswap.io/)
 * Docs: [docs.uniswap.io/](https://docs.uniswap.io/)
 * Twitter: [@UniswapExchange](https://twitter.com/UniswapExchange)
@@ -25,6 +27,17 @@ yarn start:rinkeby
 ###### Running locally on other testnet
 ```bash
 REACT_APP_NETWORK_ID=2 REACT_APP_NETWORK='Ropsten Test Network' react-scripts start
+```
+
+###### Running locally
+```bash
+npm run start
+```
+
+###### Build for github pages
+```bash
+git checkout master
+npm run deploy
 ```
 
 ### Contributions
